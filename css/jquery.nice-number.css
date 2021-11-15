@@ -1,0 +1,27 @@
+.nice-number {
+  display: inline-flex;
+  justify-content: stretch;
+}
+
+.nice-number input {
+  vertical-align: middle;
+  -moz-appearance: textfield;
+  box-sizing: content-box;
+  margin: 0;
+  text-align: center;
+}
+
+.nice-number input::-webkit-inner-spin-button,
+.nice-number input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+  border-radius: 10px;
+  background-color: white;
+  color:#4B85FF ;
+  font-size: 30px;
+  width: 25%;
+  height: 40px;
+}

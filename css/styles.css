@@ -254,6 +254,29 @@ ol li{
     color:#4B85FF ;
     margin-right: 5px;
 }
+
+.box{
+    background-color: tomato;
+    border-radius: 45px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-20%,-20%);
+}
+
+input{
+    width: 40%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,.5);
+}
+input:hover,
+input:focus{
+    background-color: sienna;
+    color: white;
+}
+
 footer{
     height: 60px;
     width: 100%;
