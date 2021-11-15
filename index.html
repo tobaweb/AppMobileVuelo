@@ -1,13 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    hola mundooooooooooooooooooooasdasd
-    ajajajaj
-</body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/2374f966d9.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Vuela Ya!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link inicio-sesion" href="sesion.html">Iniciar sesión <i class="fas fa-user"></i></a>
+        </li>
+      </ul>
+      <ul class="d-flex justify-content-around">
+        <li><img src="img/avion.svg" alt="avion"></li>
+        <li><img src="img/hotel.svg" alt="hotel"></li>
+        <li><img src="img/packete.svg" alt="packetes"></li>
+        <li><img src="img/ubicacion.svg" alt="ubicacion"></li>
+        <li><img src="img/notificacion.svg" alt="notificacion"></li>
+      </ul>
+    </nav>
+    </header>
+    <main>
+      <div class="container">
+      <a href="origen.html"><button class="origen btn btn-outline-dark"><img class="origenmov" src="img/origen.svg" alt="origen">Origen</button></a>
+      <a href="origen.html"><button class="origen btn btn-outline-dark"><img class="origenmov" src="img/destino.svg" alt="origen">Destino</button></a>
+      
+      <a href="fecha.html"><button class="fecha btn btn-outline-dark"><img class="origenmov" src="img/calendar-alt.svg" alt="origen">Fecha/Ida</button></a>
+      <a href="fecha.html"><button class="fecha2 btn btn-outline-dark"><img class="origenmov" src="img/calendar-alt.svg" alt="origen">Fecha/Ida</button></a>
+
+      <a href="preferencias.html"><button class="pasajeros btn btn-outline-dark"><img class="origenmov" src="img/destino.svg" alt="origen">Nro. de Pasajeros 2 / Clase</button></a>
+      
+      <button class="busqueda btn btn-outline-dark">Buscar <img src="img/Search.svg" alt="lupa"></button>
+    </div>
+
+    <div class="container">
+      <h1 class="ofertas text-center mt-5">Ofertas para ti</h1>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="card" style="width: 10rem;">
+            <img src="img/cancun.png" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h2 class="titulos-ofertas">Cancun / Mexico</h2>
+              <p class="card-text">Hotel mirafolores</p>
+            </div>
+          </div><!-- Cierre Card -->
+        </div> <!-- Cierre col-6 -->
+        <div class="col-6">
+          <div class="card" style="width: 10rem;">
+            <img src="img/newyork1.png" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h2 class="titulos-ofertas">New York / EE.UU</h2>
+              <p class="card-text">Robbie Williams.</p>
+            </div>
+          </div> <!-- Cierre Card -->  
+        </div> <!-- Cierre col-6 -->
+        
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-6">
+              <div class="card" style="width: 10rem;">
+                <img src="img/newyork2.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h2 class="titulos-ofertas">Cancun / Mexico</h2>
+                  <p class="card-text">Hotel mirafolores</p>
+                </div>
+              </div><!-- Cierre Card -->
+            </div> <!-- Cierre col-6 -->
+            <div class="col-6">
+              <div class="card" style="width: 10rem;">
+                <img src="img/cancun2.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h2 class="titulos-ofertas">New York / EE.UU</h2>
+                  <p class="card-text">Robbie Williams.</p>
+                </div>
+              </div> <!-- Cierre Card -->  
+            </div> <!-- Cierre col-6 -->
+    </main>
+
+    <footer> 
+        <ul class="d-flex footer justify-content-around align-items-center">
+          <li><img src="img/menu.svg" alt="Inicio"></li>
+          <li><img src="img/Heart.svg" alt="favoritos"></li>
+          <li><img src="img/Profile.svg" alt="Mi cuenta"></li>
+          <li><img src="img/Settings.svg" alt="Opciones"></li>
+        </ul>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+  </body>
 </html>

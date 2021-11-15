@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="23" height="23" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Heart" clip-path="url(#clip-path)">
+    <path id="Heart-2" data-name="Heart" d="M21.186,1.864a6.18,6.18,0,0,0-8.8,0l-.865.865-.865-.865a6.22,6.22,0,0,0-8.8,8.8l9.661,9.661,9.661-9.661a6.18,6.18,0,0,0,0-8.8" transform="translate(-0.025 0.975)" fill="#666" fill-rule="evenodd"/>
+    <rect id="Rectángulo_1450" data-name="Rectángulo 1450" width="23" height="23" fill="none"/>
+  </g>
+</svg>

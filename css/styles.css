@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    margin-bottom: 70px;
+
+}
+ul{
+    padding: 0px;
+    list-style: none;
+}
+
+header{
+    border-bottom:  10px solid #4B85FF;
+    margin-bottom: 20px;
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+ol li{
+    text-align: center;
+}
+.inicio-sesion{
+    background-color:#4B85FF ;
+    color: white;
+    border-radius: 45px 0px 0px 45px;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 10px;
+}
+.inicio-sesion:hover{
+    background-color:#FFAF00;
+    color: white;
+    border-radius: 45px 0px 0px 45px;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 10px;
+}
+.origen{
+    margin-top: -2px;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    background-color: white;
+    text-align: left;
+}
+.origenmov{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.fecha{
+    margin-top: -2px;
+    width: 40%;
+    height: 50px;
+    margin-left: 10%;
+    background-color: white;
+    text-align: left;
+}
+
+.fecha2{
+    margin-left: -4px;
+    margin-top: -2px;
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    text-align: left;
+}
+.pasajeros{
+    margin-top: 15px;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    background-color: white;
+    text-align: left;
+}
+
+.busqueda{
+    margin-top: 15px;
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+    border-radius: 45px;
+}
+
+.ofertas{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    background-color: #FFAF00;
+    border-radius: 15px;
+    padding: 20px 10px 20px 10px;
+}
+
+
+
+.titulos-ofertas{
+    font-weight: 500;
+    color: #FFAF00;
+    font-size: 15px;
+}
+.card-body{
+    background-color: #4B85FF;
+}
+.card-text{
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.footer{
+    height: 60px;
+}
+.flecha{
+    padding: 0px 10px;
+    color:#FFAF00 ;
+}
+.titulos-ingreso{
+    color:#4B85FF ;
+}
+.input-inicio{
+    margin-bottom: 18px;
+    width: 100%;
+    border-radius: 45px;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+.boton-entrar{
+    font-weight: bolder;
+    background-color:#FFAF00 ;
+    width: 100%;
+    border-radius: 45px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+.boton-google{
+    background-color:#4B85FF;
+    width: 100%;
+    border-radius: 45px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.boton-mail{
+    background-color:white;
+    width: 100%;
+    border-radius: 45px;
+    padding: 10px 20px 10px 20px;
+    color: #747474;
+    margin-bottom: 18px;
+}
+.boton-registrarse{
+    background-color:#747474;
+    width: 100%;
+    border-radius: 45px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.fa-google-plus-g{
+    margin-right: 10px;
+}
+.fa-facebook-f{
+    margin-right: 10px;
+}
+.fa-envelope{
+    margin-right: 15px;
+}
+.primer-dia{
+    grid-column-start: 5;
+}
+.day-name{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.calendario{
+    text-align: center;
+    width: 95%;
+}
+.titulo-fecha{
+    background:#FFAF00;
+    color: white;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 45px 45px 0px 0px;
+}
+
+.titulos-fechas{
+    color:#4B85FF ;
+    font-size: 20px;
+}
+.seleccion-fecha{
+    background: #4B85FF;
+    color: white;
+    height: 50px;
+    font-size: 12px;
+}
+.fecha-line{
+    border: black 1px solid;
+}
+.p-fechas{
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.fecha-seleccionada-ini{
+    background-color: #FFAF00;
+}
+.fecha-seleccionada{
+    background-color:#4B85FF ;
+}
+.blue{
+    background-color:#4B85FF ;
+    height: 60px;
+}
+.btn-aceptar{
+    font-weight: bolder;
+    color: white;
+    background-color:#FFAF00 ;
+    padding: 5px 20px;
+    border-radius: 45px;
+}
+.parrafos{
+    color: white;
+    font-weight: bolder;
+}
+.dias-noches{
+    margin-bottom: 60px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.font-sugerencias{
+    font-size: 14px;
+    line-height: 30px;
+}
+.fa-plane{
+    font-size: 13px;
+    color:#4B85FF ;
+    margin-right: 5px;
+}
+footer{
+    height: 60px;
+    width: 100%;
+    border-top: 3px solid #4B85FF;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+
