@@ -255,14 +255,6 @@ ol li{
     margin-right: 5px;
 }
 
-.box{
-    background-color: tomato;
-    border-radius: 45px;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-20%,-20%);
-}
 
 input{
     width: 40%;
@@ -273,7 +265,7 @@ input{
 }
 input:hover,
 input:focus{
-    background-color: sienna;
+    background-color: rgb(108, 105, 104);
     color: white;
 }
 
