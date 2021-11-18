@@ -202,6 +202,11 @@ ol li{
     color:#4B85FF ;
     font-size: 20px;
 }
+.titulos-fechas2{
+    font-weight: bolder;
+    color:#4B85FF ;
+    font-size: 25px;
+}
 .seleccion-fecha{
     background: #4B85FF;
     color: white;
