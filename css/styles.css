@@ -261,12 +261,119 @@ input{
     border: none;
     outline: none;
     padding: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0,.5);
 }
 input:hover,
 input:focus{
     background-color: rgb(108, 105, 104);
     color: white;
+}
+
+.texto-preferencias2{
+    margin: 0px;
+}
+.texto-preferencias{
+    font-size: 9px;
+    padding-left: 8px;
+    margin: 0px;
+}
+.background-prefe{
+    border-radius: 45px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #666666;
+}
+
+.fa-chevron-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.fa-chevron-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.boton-flecha{
+    width: 50%;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+.boton-flecha2{
+    width: 50%;
+    border: none;
+    border-radius: 0px 45px 45px 0px;
+}
+.caja{
+    height: 45px;
+    border-radius: 45px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.economica{
+    height: 45px;
+    color: white;
+    font-weight: bolder;
+    background-color: #4B85FF ;
+    border-radius: 45px 0px 0px 45px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #666666;
+}
+.economica p{
+    text-align: center;
+    padding-top: 10px;
+}
+.media p{
+    text-align: center;
+    padding-top: 10px;
+    }
+.alta p{
+    text-align: center;
+    padding-top: 10px;
+    }
+.economica:hover{
+    background-color: #FFAF00 ;
+    border-radius: 45px 0px 0px 45px;
+    
+}
+.media{
+    height: 45px;
+    color: white;
+    font-weight: bolder;
+    background-color: #4B85FF ;
+    border-radius: 0px 0px 0px 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #666666;
+}
+.media:hover{
+    background-color: #FFAF00 ;
+    border-radius: 0px 0px 0px 0px;
+}
+.alta{
+    height: 45px;
+    color: white;
+    font-weight: bolder;
+    background-color: #4B85FF ;
+    border-radius: 0px 45px 45px 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #666666;
+}
+.alta:hover{
+    background-color: #FFAF00 ;
+    border-radius: 0px 45px 45px 0px;
+}
+a{
+    text-decoration: none;
+}
+.prefe-aceptar{
+    display: flex;
+
 }
 
 footer{
