@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83" height="14" viewBox="0 0 83 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14" height="14" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="13" height="14" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1005" data-name="Grupo 1005" transform="translate(-52 -381)">
+    <g id="Favorite" transform="translate(52 381)" clip-path="url(#clip-path)">
+      <path id="Trazado_157" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" fill="#ff9e19"/>
+      <rect id="Rectángulo_1449" data-name="Rectángulo 1449" width="14" height="14" fill="none"/>
+    </g>
+    <g id="Favorite-2" data-name="Favorite" transform="translate(70 381)" clip-path="url(#clip-path)">
+      <path id="Trazado_157-2" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" fill="#ff9e19"/>
+      <rect id="Rectángulo_1449-2" data-name="Rectángulo 1449" width="14" height="14" fill="none"/>
+    </g>
+    <g id="Favorite-3" data-name="Favorite" transform="translate(87 381)" clip-path="url(#clip-path-3)">
+      <path id="Trazado_157-3" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" fill="#ff9e19"/>
+      <rect id="Rectángulo_1449-3" data-name="Rectángulo 1449" width="14" height="14" fill="none"/>
+    </g>
+    <g id="Favorite-4" data-name="Favorite" transform="translate(105 381)" clip-path="url(#clip-path-3)">
+      <path id="Trazado_157-4" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" fill="#ff9e19"/>
+      <rect id="Rectángulo_1449-4" data-name="Rectángulo 1449" width="14" height="14" fill="none"/>
+    </g>
+    <path id="Trazado_157-5" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" transform="translate(121.167 381)" fill="#fff"/>
+  </g>
+</svg>

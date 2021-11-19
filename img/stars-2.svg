@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83" height="14" viewBox="0 0 83 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14" height="14" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1006" data-name="Grupo 1006" transform="translate(-52 -555)">
+    <g id="Favorite" transform="translate(52 555)" clip-path="url(#clip-path)">
+      <path id="Trazado_157" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" fill="#ff9e19"/>
+      <rect id="Rectángulo_1449" data-name="Rectángulo 1449" width="14" height="14" fill="none"/>
+    </g>
+    <g id="Favorite-2" data-name="Favorite" transform="translate(70 555)" clip-path="url(#clip-path)">
+      <path id="Trazado_157-2" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" fill="#ff9e19"/>
+      <rect id="Rectángulo_1449-2" data-name="Rectángulo 1449" width="14" height="14" fill="none"/>
+    </g>
+    <path id="Trazado_157-3" data-name="Trazado 157" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" transform="translate(121.167 555)" fill="#fff"/>
+    <path id="Trazado_1422" data-name="Trazado 1422" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" transform="translate(104 555)" fill="#fff"/>
+    <path id="Trazado_1423" data-name="Trazado 1423" d="M6.917,0,9.078,4.323l4.755.692L10.375,8.387l.778,4.755L6.917,10.894,2.68,13.142l.778-4.755L0,5.015l4.755-.692Z" transform="translate(88 555)" fill="#fff"/>
+  </g>
+</svg>

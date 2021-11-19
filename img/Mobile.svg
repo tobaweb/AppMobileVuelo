@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="26" viewBox="0 0 23 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="23" height="26" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mobile" clip-path="url(#clip-path)">
+    <rect id="Rectángulo_975" data-name="Rectángulo 975" width="23" height="26" fill="none"/>
+    <path id="Trazado_259" data-name="Trazado 259" d="M15.3,0a1.577,1.577,0,0,1,1.19.488A1.446,1.446,0,0,1,17,1.625v22.75a1.446,1.446,0,0,1-.51,1.137A1.577,1.577,0,0,1,15.3,26H1.7a1.577,1.577,0,0,1-1.19-.488A1.446,1.446,0,0,1,0,24.375V1.625A1.446,1.446,0,0,1,.51.488,1.577,1.577,0,0,1,1.7,0ZM14.11,19.5V4.387H2.89V19.5Zm-6.8,4.387a1.577,1.577,0,0,0,1.19.488,1.577,1.577,0,0,0,1.19-.488,1.524,1.524,0,0,0,0-2.275,1.577,1.577,0,0,0-1.19-.487,1.577,1.577,0,0,0-1.19.487,1.524,1.524,0,0,0,0,2.275Z" transform="translate(3)" fill="#4b85ff"/>
+  </g>
+</svg>

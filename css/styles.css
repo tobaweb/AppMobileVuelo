@@ -380,7 +380,241 @@ a{
     display: flex;
 
 }
+.steped{
+    height: 65px;
+    background-color: #4B85FF;
+    border-radius: 20px;
+    padding: 10px 5px 10px;
+}
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  
+  .stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    margin-bottom: 6px;
+    color: #4B85FF;
+    font-weight: bolder;
+  }
+  
+  .stepper-item.active {
+    font-weight: bold;
+  }
+  
+  .stepper-item.completed .step-counter {
+    background-color: #FFAF00;
+  }
+  
+  .stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #FFAF00;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child::before {
+    content: none;
+  }
+  .stepper-item:last-child::after {
+    content: none;
+  }
 
+.cabecera-vuelo{
+    background-color: #4B85FF;
+    height: 25px;
+    border:1px solid black;
+    color: white;
+    font-weight: bolder;
+}
+
+.centro-vuelo{
+    height: 50px;
+    border:1px solid black;
+    color: #818181;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.ida-texto{
+    margin: 0px;
+    font-weight: normal;
+}
+.ida-texto-numero{
+    margin: 0px;
+    font-size: 25px;
+}
+.radio{
+    width: 40px;
+    height: 20px;
+}
+.radio2{
+    margin-left: 15px;
+    width: 39px;
+    height: 17px;
+}
+.precio{
+    font-weight: bolder;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 0px;
+    left: 12.26px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.hotel-1{
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/hotel-1.png) ;
+    background-size: cover;
+}
+.background-hospedaje{
+    height: 100px;
+    background-color: #4B85FF;
+    color: white;
+    font-size: 13px;
+}
+.line-white{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid white;
+}
+.texto-hotel{
+    margin-bottom: 5px;
+}
+.texto-hotel2{
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #ffa500;
+}
+.hotel-list{
+    margin-top: 5px;
+    font-size: 11px;
+    line-height: 18px;
+}
+.hotel-2{
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/hotel-2.png) ;
+    background-size: cover;
+}
+
+.confirmacion{
+    border: 1.5px solid black;
+    width: 100%;
+    height: 50px;
+}
+
+.metodo-pago{
+    color: #747474;
+    border: 1.5px solid #747474;
+    border-radius: 15px;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.metodo-pago:hover{
+    color: white;
+    background-color:#ffa500 ;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    height: 65px;
+    width: 100%;
+}
+
+.texto-pagos{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.transferencia-tiempo{
+    border: 1.5px solid black;
+    width: 50%;
+    height: 70px;
+    background-color:#ffa500;
+    border-radius: 15px;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.transferencia-tiempo p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.transferencia-list{
+    color: #666666;
+    line-height: 40px;
+}
 footer{
     height: 60px;
     width: 100%;
