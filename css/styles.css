@@ -615,6 +615,31 @@ input[type='radio']:checked:after {
     color: #666666;
     line-height: 40px;
 }
+.texto-transferencia{
+    color: #4B85FF;
+}
+.finalizando-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60px;
+    border-top: 3px solid #4B85FF;
+    border-bottom: 3px solid #4B85FF;
+    background-color: #ffa500;
+}
+
+.felicitaciones{
+    font-size: 30px;
+}
+.felicitaciones-text{
+    color: #4B85FF;
+    font-size: 18px;
+}
+.tiempo-restante{
+    margin: 0px;
+    padding: 0px;
+}
 footer{
     height: 60px;
     width: 100%;
